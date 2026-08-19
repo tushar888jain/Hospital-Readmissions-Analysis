@@ -45,10 +45,6 @@ Repository Structure
 
 2. powerbi/ — Power BI dashboard file containing the full two-page interactive report
 
-3. data/ — data dictionary describing all fields in the dataset
-
-4. screenshots/ — dashboard page screenshots and SQL query result screenshots
-
 # Dashboard and Query Structure
 
 SQL handles the correlation-style and ranking queries, such as medication change frequency and comorbidity aggregates, while Power BI handles the interactive, filterable visual exploration across demographics, clinical drivers, medication patterns, and utilization. The two are complementary, SQL for precise aggregate answers, Power BI for exploring patterns visually.
@@ -57,7 +53,5 @@ Page 1, Demographics Overview and Clinical Drivers, contains KPI summary cards f
 
 Page 2, Medication Patterns and Utilization, visualizes dosage change patterns for key medications and readmission rate trends across prior emergency, outpatient, and inpatient visit history, with slicers for medication change status, diabetes medication status, and number of prior inpatient visits.
 
-<img width="511" height="288" alt="Screenshot 2026-08-17 161143" src="https://github.com/user-attachments/assets/5958ed3f-fba2-406c-9dea-c317f7cb5268" />
 
-<img width="507" height="285" alt="Screenshot 2026-08-17 161150" src="https://github.com/user-attachments/assets/697904dd-ef39-4c3e-9700-54af9dca0866" />
 
